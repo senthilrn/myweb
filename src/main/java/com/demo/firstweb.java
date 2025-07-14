@@ -116,6 +116,12 @@ public String getsval(@PathVariable int a){
 		return "Not a Prime Number";
 	}
 	}
+
+
+@GetMapping(value="/nmae")
+public String getname() {
+	return ("Hello this Senthil's New World");
+}
 }
 		
 
